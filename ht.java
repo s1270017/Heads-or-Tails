@@ -29,8 +29,10 @@ public class ht {
 		      System.out.println("Round "+(i+1)+":"+hot);
 		    }
 		      System.out.println("Heads: "+h+", Tails: "+t);
-	}
 
+		      if(h>t)System.out.println(str +" won!");
+		      else System.out.println(str +" lost!");
+	}
 }
 
 
